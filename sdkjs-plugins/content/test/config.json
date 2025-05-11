@@ -1,54 +1,54 @@
 {
-    "name": "test",
-    "guid": "asc.{0616AE85-5DBE-4B6B-A0A9-455C4F1503AD}",
-    "baseUrl": "",
-    "store":{
-      "background": {
-        "light": "#F5F5F5",
-        "dark": "#444444"
-      },
-      "categories": ["specAbilities", "work"],
-      "icons": {
-        "light": "resources/store/icons",
-        "dark": "resources/store/icons"
-      },
-      "screenshots": ["resources/store/screenshots/screen_1.png"]
+  "name": "test",
+  "guid": "asc.{0616AE85-5DBE-4B6B-A0A9-455C4F1503AD}",
+ 
+  "baseUrl": "./",  
+  "store": {  },
+  "variations": [
+    {
+      "description": "hello world",
+      "url": "index.html",
+      "icons": ["resources/img/icon.png","resources/img/icon@2x.png"],
+      "isViewer": false,
+      "EditorsSupport": ["word"],
+      "isVisual": false,
+      "isModal": true,
+      "isInsideMode": false,
+    
+      "initDataType": "none",
+      "initData": "",
+      "isUpdateOleOnResize": true,
+     
+      "buttons": [
+        {
+          "id": "btnInsertHello",
+          "icon": "resources/img/icon.png",
+          "text": "Insert Hello",
+          "action": "plugin"
+        }
+      ]
     },
-    "variations": [
-      {
-        "description": "hello world",
-        "url": "index.html",
-        "icons": ["resources/img/icon.png", "resources/img/icon@2x.png"],
-        "isViewer": false,
-        "EditorsSupport": ["word"],
-        "isVisual": false,
-        "isModal": true,
-        "isInsideMode": false,
-        "initDataType": "none",
-        "initData": "",
-        "isUpdateOleOnResize": true,
-        "buttons": []
-      },
-      {
-        "description": "About",
-        "url": "index_about.html",
-        "icons": ["resources/img/icon.png", "resources/img/icon@2x.png"],
-        "isViewer": false,
-        "EditorsSupport": ["word"],
-        "isVisual": true,
-        "isModal": true,
-        "isInsideMode": false,
-        "initDataType": "none",
-        "initData": "",
-        "isUpdateOleOnResize": true,
-        "buttons": [
-          {
-            "text": "Ok",
-            "primary": true
-          }
-        ],
-  
-        "size": [392, 147]
-      }
-    ]
-  }
+    {
+      "description": "About",
+      "url": "index_about.html",
+      "icons": ["resources/img/icon.png","resources/img/icon@2x.png"],
+      "isViewer": false,
+      "EditorsSupport": ["word"],
+      "isVisual": true,
+      "isModal": true,
+      "isInsideMode": false,
+      "initDataType": "none",
+      "initData": "",
+      "isUpdateOleOnResize": true,
+      "buttons": [
+        {
+          "id": "btnOk",
+          "text": "Ok",
+          "primary": true,
+          "action": "plugin"
+        }
+      ],
+      "size": [392,147]
+    }
+  ]
+}
