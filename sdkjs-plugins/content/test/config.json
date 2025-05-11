@@ -4,19 +4,7 @@
   "baseUrl": "",
   "variations": [
     {
-      "store":
-      {
-  "background": {
-    "light": "#F5F5F5",
-    "dark": "#444444"
-  },
-  "categories": ["specAbilities", "work"],
-  "icons": {
-    "light": "resources/store/icons",
-    "dark": "resources/store/icons"
-  },
-  "screenshots": ["resources/store/screenshots/screen_1.png"]
-},
+      
       "description": "hello world",
       "url": "index.html",
       "icons": ["resources/img/icon.png", "resources/img/icon@2x.png"],
@@ -28,28 +16,27 @@
       "initDataType": "none",
       "initData": "",
       "isUpdateOleOnResize": true,
-      "buttons": []
-    },
-    {
-      "description": "About",
-      "url": "index_about.html",
-      "icons": ["resources/img/icon.png", "resources/img/icon@2x.png"],
-      "isViewer": false,
-      "EditorsSupport": ["word"],
-      "isVisual": true,
-      "isModal": true,
-      "isInsideMode": false,
-      "initDataType": "none",
-      "initData": "",
-      "isUpdateOleOnResize": true,
-      "buttons": [
-        {
-          "text": "Ok",
-          "primary": true
-        }
-      ],
-
-      "size": [392, 147]
+      "buttons": [],
+      "store": {
+				"background": {
+					"light" : "linear-gradient(90deg, #F9B6FF 0%, #E370EE 102.01%)",
+					"dark" : "linear-gradient(90deg, #F9B6FF 0%, #E370EE 102.01%)"
+				},
+				"screenshots" :
+				[
+					"resources/store/screenshots/screen_1.png",
+					"resources/store/screenshots/screen_2.png",
+					"resources/store/screenshots/screen_3.png",
+					"resources/store/screenshots/screen_4.png",
+					"resources/store/screenshots/screen_5.png",
+					"resources/store/screenshots/screen_6.png"
+				],
+				"icons" : {
+					"light" : "resources/store/icons",
+					"dark"  : "resources/store/icons"
+				},
+				"categories": ["specAbilities", "work", "recommended"]
+			}
     }
   ]
 }
