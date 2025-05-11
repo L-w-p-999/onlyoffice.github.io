@@ -5,8 +5,8 @@
   // 一定要用 function 而不是箭头函数，否则 this.callCommand 不可用
   window.Asc.plugin.init = function () {
     const variant = 2;
-
-    switch (variant) {
+  
+      switch (variant) {
       case 0:
         // serialize command as text
         let sScript = "var oDocument = Api.GetDocument();";
@@ -40,7 +40,7 @@
 
       default:
         break;
-    }
+      }
   };
 
   // 同样改成普通函数，以后按钮回调也能拿到 this
