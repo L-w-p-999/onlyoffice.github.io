@@ -16,27 +16,8 @@
       "initDataType": "none",
       "initData": "",
       "isUpdateOleOnResize": true,
-      "buttons": [],
-      "store": {
-				"background": {
-					"light" : "linear-gradient(90deg, #F9B6FF 0%, #E370EE 102.01%)",
-					"dark" : "linear-gradient(90deg, #F9B6FF 0%, #E370EE 102.01%)"
-				},
-				"screenshots" :
-				[
-					"resources/store/screenshots/screen_1.png",
-					"resources/store/screenshots/screen_2.png",
-					"resources/store/screenshots/screen_3.png",
-					"resources/store/screenshots/screen_4.png",
-					"resources/store/screenshots/screen_5.png",
-					"resources/store/screenshots/screen_6.png"
-				],
-				"icons" : {
-					"light" : "resources/store/icons",
-					"dark"  : "resources/store/icons"
-				},
-				"categories": ["specAbilities", "work", "recommended"]
-			}
+      "buttons": []
+     
     }
   ]
 }
